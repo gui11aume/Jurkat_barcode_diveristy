@@ -12,5 +12,7 @@ starcode -d2 passage1.lst > passage1.stc
 starcode -d2 passage2.lst > passage2.stc
 starcode -d2 passage3.lst > passage3.stc
 starcode -d2 passage4.lst > passage4.stc
+starcode -d2 freeze.lst > freeze.stc
+starcode -d2 thaw.lst > thaw.stc
 
 R -f plot_diversity_curve.R
