@@ -11,7 +11,7 @@ pdf("barcode_diversity.pdf")
 par(mar=c(3.5, 3.5, 1.5, 1.5))
 plot(cumsum(p1$V2) / sum(p1$V2), type="l", xlim=c(0,4000),
   xlab="Barcode index", ylab="Cumulative frequency",
-  lwd=2, panel.first=grid(), col="gray25",
+  lwd=2, panel.first=grid(), col="gray25", ylim=c(0,1),
   bty="n", xaxt="n", yaxt="n", col.lab="gray25", line=2.2)
 lines(cumsum(p2$V2) / sum(p2$V2), lwd=1.6, col='grey20')
 lines(cumsum(p4$V2) / sum(p4$V2), lwd=.9, col='grey25')
