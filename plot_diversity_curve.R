@@ -25,6 +25,6 @@ legend(x="bottomright", inset=.02,
    lwd=c(2, 1.6, 1.3, .9, 1.3, 1.3),
    legend=c("Passage 1", "Passage 2", "Passage 3", "Passage 4",
       "Frozen", "Revived"),
-   text.col="gray25", box.col="gray70", cex=.9
+   text.col="gray25", box.col="gray70", bg="white", cex=.9
 )
 dev.off()
